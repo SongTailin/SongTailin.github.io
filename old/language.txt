@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tailin Song 宋泰霖</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a href="../index.html">Home 主页</a></li>
+  <li><a href="../news.html">News 新闻</a></li>
+  <li><a href="../education.html">Education 教育经历</a></li>
+  <li><a href="../publications.html">Publications 发表论文</a></li>
+  <li><a href="../research-experiences.html">Research 研究经历</a></li>
+   <li><a class="active" href="../professional-skills.html">Skills 综合技能</a></li>
+   <li><a href="../teaching-experience.html">Teaching 教学经历</a></li>
+   <li><a href="../organizational-experience.html">Organization 组织经历</a></li>
+   <li><a href="../honors-and-awards.html">Awards 荣誉奖励</a></li>
+  <li><a href="../data.html">Data 数据</a></li>
+</ul>
+
+<h2><a href="../professional-skills.html">Comprehensive Skills 综合技能</a> (Language 语言) </h2>
+
+<dl>
+  <dt>Profession 专业能力</dt>
+  <dd><a href="programming.html">- Programming 程序设计</a></dd>
+  <dd><a href="modeling.html">- Modeling 建模</a></dd>
+  <dd><a href="math.html">- Math 数学</a></dd>
+  <dd><a href="innovation.html">- Innovation 创新</a></dd>
+  <dd><a href="teaching.html">- Teaching 教学</a></dd>
+  <dt><a href="language.html">Language 语言能力</a></dt>
+  <dd>- Mandarin 中文</dd>
+  <dd>- English 英文</dd>
+  <dt><a href="sports.html">Sports 体育运动</a></dt>
+  <dd>- Swimming 游泳</dd>
+  <dd>- Long Race 长跑</dd>
+  <dd>- Orienteering 定向越野</dd>
+</dl>
+
+</br>
+
+<h3 style="color:Pink">College English Test Band 6 大学英语六级考试 (2023.12)</h3>
+<p style="color:Pink">Preparing...... 准备中...... </p>
+<h3 style="color:Pink">TOEFL internet Based Test 托福网考 (2023.10) </h3>
+<p style="color:Pink">Preparing...... 准备中...... (Cheer up! 必胜！)</p>
+<h3 style="color:Pink">National Proficiency Test of Mandarin 普通话水平测试 (2023.10)</h3>
+<p style="color:Pink">Preparing...... 准备中...... </p>
+<h3>TOEFL internet Based Test Home Edition 家庭版托福网考 (2023.08) </h3>
+<p>69 (Reading 阅读 18 Listening 听力 14 Speaking 口语 17 Writing 写作 20)</p>
+<h3 style="color:Green">College English Test Band 6 大学英语六级考试 (2023.06)</h3>
+<p style="color:Green">Written Test 笔试 482 (Listening 听力 132 Reading 阅读 211 Writing & Translation 写作和翻译 139) </p>
+<p style="color:Green">Spoken Test 口试 Qualified 合格 </p>
+<h3>2023-National English Competition for College Students 2023年全国大学生英语竞赛 (2023.05) </h3>
+<p>Certificate of Participation 参赛证书 </p>
+<h3 style="color:Green">National Proficiency Test of Mandarin 普通话水平测试 (2023.05)</h3>
+<p style="color:Green">90.2 Level II, Grade A 二级甲等 </p>
+<h3>College English Test Band 6 大学英语六级考试 (2023.03) </h3>
+<p>Written Test 笔试 454 (Listening 听力 132 Reading 阅读 183 Writing & Translation 写作和翻译 139) </p>
+<p>Spoken Test 口试 C+ </p>
+<h3 style="color:Green">National Proficiency Test of Mandarin 普通话水平测试 (2023.02) </h3>
+<p style="color:Green">91.2 Level II, Grade A 二级甲等</p>
+<h3>2022-National English Competition for College Students 2022年全国大学生英语竞赛 (2022.09) </h3>
+<p>Certificate of Participation 参赛证书 </p>
+<h3>College English Test Band 4 大学英语四级考试 (2022.09) </h3>
+<p>Written Test 笔试 471 (Listening 听力 133 Reading 阅读 187 Writing & Translation 写作和翻译 151) </p>
+<p>Spoken Test 口试 B </p>
+<h3 style="color:Green">National Proficiency Test of Mandarin 普通话水平测试 (2022.04) </h3>
+<p style="color:Green">91.2 Level II, Grade A 二级甲等</p>
+<h3 style="color:Green">Duolingo English Test 多邻国英语测试 (2022.04)</h3>
+<p style="color:Green">115 (Literacy 读写 125 Comprehension 理解 115 Conversation 交流 90 Production 表达 90)</p>
+<h3>Duolingo English Test 多邻国英语测试 (2022.02)</h3>
+<p>100 (Literacy 读写 110 Comprehension 理解 105 Conversation 交流 85 Production 表达 90)</p>
+<h3>Duolingo English Test 多邻国英语测试 (2021.12)</h3>
+<p>100 (Literacy 读写 105 Comprehension 理解 105 Conversation 交流 85 Production 表达 75)</p>
+<h3>Fltrp Cup National English Competition for Schools "外研社杯"全国中学生外语素养大赛 (2019.05) </h3>
+<p>Honorable Mention 优秀奖</p>
+<br/>
+
+</body>
+</html>
