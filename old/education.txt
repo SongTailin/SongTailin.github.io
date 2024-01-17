@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tailin Song 宋泰霖 </title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a href="index.html">Home 主页</a></li>
+  <li><a href="news.html">News 新闻</a></li>
+  <li><a class="active" href="education.html">Education 教育经历</a></li>
+  <li><a href="publications.html">Publications 发表论文</a></li>
+  <li><a href="research-experiences.html">Research 研究经历</a></li>
+   <li><a href="professional-skills.html">Skills 综合技能</a></li>
+   <li><a href="teaching-experience.html">Teaching 教学经历</a></li>
+   <li><a href="organizational-experience.html">Organization 组织经历</a></li>
+   <li><a href="honors-and-awards.html">Awards 荣誉奖励</a></li>
+  <li><a href="data.html">Data 数据</a></li>
+</ul>
+
+<h2>Main Education 学历教育 </h2>
+<h3>Beijing Normal University 北京师范大学 (2021.09 - 2025.06)</h3>
+<p>School of Artificial Intelligence(President: Prof. Hua Huang) Major: Artificial Intelligence Minor: Statistics Undergraduate </p>
+<p>人工智能学院(院长：黄华教授) 主修：人工智能 辅修：统计学 本科生</p>
+<p>Academic Credits 161.25(including exemptions)+23.25, Major 143.25(including exemptions)+17.25, Minor 18+6 <a href="data.html">(Data Explanation)</a> 1 credit=32 class hours</p>
+<p>GPA 3.7/4.0 Weighted Average Score (Excluding Minor Courses)87.68/100 (Including Minor Courses)87.35/100</p>
+<p>修读学分数 161.25(含免修)+23.25 主修 143.25(含免修)+17.25 辅修 18+6 <a href="data.html">(数据详解)</a> 1学分=32学时</p>
+<p>GPA 3.7/4.0 百分制加权平均分 (不含辅修)87.68/100 (含辅修)87.35/100</p>
+
+<p style="background-color:yellow;color:red">Due to many courses being checked for grades, the update of grade data is temporarily suspended until the data is confirmed to be correct.</p>
+<p style="background-color:yellow;color:red">由于很多课程正在核对成绩，目前暂时停止更新成绩数据直至数据确认无误。</p>
+
+<!--
+<p style="background-color:yellow;color:red">Due to well-known reasons, I firmly<b style="color:red"> DO NOT </b>acknowledge the authenticity and rationality of the professional ranking for the years 2021-2022 and professional ranking and comprehensive ranking for the years 2022-2023, and will decide whether to disclose them based on specific circumstances.</p>
+<p style="background-color:yellow;color:red">由于众所周知的原因，对于2021-2022年度专业排名、2022-2023年度综合和专业排名，本人坚决<b style="color:red">不予承认</b>其真实性和合理性，后续将根据具体情况决定是否公示。</p>
+-->
+
+<p>Core Courses: Intro to AI, Digital logic and CPU, Data Structure and Algorithm, Mathematical Basis of AI, Modern Signal Processing, Software Engineering, Pattern Recognition, Introduction to Computer Systems(studying), Computer Vision(studying), Natural Language Processing(studying), Brain like and Cognitive Computing(studying)</p>
+<p>Professional Courses: Database System, Cybersecurity, Linux OS, Discrete Mathematics, Game Theory, Data Mining, ML Tools and Platforms, Large Models Based on MindSpore, Education Digitization</p>
+<p>Minor Courses: Mathematical Statistics, Statistical Computation, Introduction to Statistics A, Microeconomics, Probability Theory, Applied Time Series Analysis(Planned), Nonparametric Statistics(Planned)</p>
+<p>核心课程：人工智能导论、数字逻辑与CPU基础、数据结构与算法、人工智能数学基础、现代信号处理基础、软件工程、模式识别、计算机系统导论(在修)、计算机视觉(在修)、自然语言处理(在修)、类脑与认知计算(在修) </p>
+<p>专业课程：数据库系统原理、信息安全基础与实践、Linux操作系统、离散数学、博弈论、数据挖掘、机器学习工具与平台、基于昇思的大模型、教育数字化 </p>
+<p>辅修课程：统计学导论A、微观经济学原理、概率论、数理统计、统计计算、应用时间序列分析(计划)、非参数统计(计划) </p>
+<h3>Yanbian No.2 Senior High School 吉林省延边第二中学 (2018.08 - 2021.06) </h3>
+<p>Science Experimental Class 理科实验班 </p>
+<p>2021-College Entrance Examination Score 2021年高考成绩 634/750 </p>
+<p>Chinese 语文 126/150 Math 数学 141/150 English 英语 125/150 Science 理综 242/300 </p>
+<p>Provincial Ranking 省排名 732/68294 </p>
+<h5 style="color:red">My failure in the college entrance examination prevented me from entering the school of my dreams. I once thought about repeating, but I don't want to go backwards. I want to work hard, move forward firmly, and surpass my dreams.</h5>
+<h5 style="color:red">在高考中的失败让我没有进入我梦寐以求的学校。我曾经想过复读，但我不想走回头路。我想我要奋力拼搏、坚定向前，超越我的梦想。</h5>
+<br/>
+
+<h2>Additional Education 增进教育 </h2>
+<h3>University of Oxford, UK 英国牛津大学 (2023.09 - 2023.11) </h3>
+<p>Oxford Prospects Programmes - 2023 Summer Tutorial Programme 牛津展望计划——2023年暑期导师制项目</p>
+<p>Topic: Introduction to Artificial Intelligence and Machine Learning 主题：人工智能与机器学习导论</p>
+<p>Tutor: Dr. Nived Chebrolu 导师：尼维德-切布罗鲁博士</p>
+<h3>Baidu Pinecone Talent Training Elite Class 百度松果人才培养菁英班 (2023.06 - 2024.05)</h3>
+<p>The Elite Class mainly conducts practical training in artificial intelligence and programming.</p>
+<p>菁英班主要进行人工智能和程序设计的实训。</p>
+<h3>MindSpore Innovation Training Camp 昇思创新训练营 (2023.06 - 2023.06) </h3>
+<p>The camp mainly taught the structure and evolution of the big model in natural language processing.</p>
+<p>训练营主要讲授了自然语言处理领域大模型的结构和演变历程。</p>
+<p>Second Prize 二等奖</p>
+<h3>Innovation & Practice Programme for the Cultivation of High-level Internationalized Talents 高层次国际化人才培养创新实践项目 (2022.09 - present 至今)</h3>
+<p>Host: China Foreign Cultural Exchange Center of the Ministry of Education 主办：教育部中外人文交流中心</p>
+<p>Courses: Challenge and Governance of Artificial Intelligence and Modern Technology 95.2, Research Methods and Data Processing Methods in report and paper writing 98.8, Emerging Biotechnology Development and Global Governance 100, The Belt and Road Initiative Based on Sustainable Development 100, International Conflict and Crisis Management 97</p>
+<p>课程：人工智能与现代科技的挑战及治理 95.2，报告和论文撰写中常用的研究方法与数据处理 98.8，新兴生物技术发展与全球治理 100，国际经济视角分析“一带一路”与可持续发展 100，国际冲突与危机管理 98</p>
+<h3>Nanyang Technological University, Singapore 新加坡南洋理工大学 (2022.07 - 2022.08) </h3>
+<p>Artificial Intelligence Summer School 人工智能 暑期学校 </p>
+<p>Merit, Best Presenting Team 良好 最佳小组</p>
+<h3>Stanford University and UC. Berkery, USA 美国斯坦福大学和加州大学伯克利分校 (2022.07 - 2022.08) </h3>
+<p>Leadership and Innovation Program 领导力和创新项目 </p>
+<p>Global Business Plan Competition - Third Place 全球商业大赛 三等奖</p>
+<h3>Excellence Training Camp 卓越训练营 (2021.11 - 2022.10) </h3>
+<p>Member 13th Group of 15th Issue 成员 第十五期第十三组 </p>
+<p>Excellent Student, Comprehensive Ranking 6/172 优秀学员 综合排名 6/172 </p>
+<br/>
+
+</body>
+</html>
