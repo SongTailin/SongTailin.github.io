@@ -80,12 +80,36 @@ li a:hover:not(.active) {
 
 </br>
 
-<h3 style="color:Pink">##2024-China Undergraduate Mathematical Contest in Modeling 2024年中国大学生数学建模竞赛 (2024.09) </h3>
-<p style="color:Pink">Reviewing...... 评阅中......</p>
-<details style="color:Pink">
-<summary> (The title and abstract will be displayed after reviewing 标题和摘要将在评奖结束后展示) (Jointly completed by Tailin Song, Lingrui Wang, and Caiyi Liang  由宋泰霖、王灵睿、梁彩依共同完成)</summary>
-<p>Personal evaluation: This contest tested programming skills more than any previous contests. (To be supplemented)</p>
-<p>个人评价：这场比赛对编程能力的考验超过了以往的任何一次比赛。（待补充）</p>
+<h3>##2024-China Undergraduate Mathematical Contest in Modeling 2024年中国大学生数学建模竞赛 (2024.09) </h3>
+<p>Successful Participant 成功参赛</p>
+<details>
+<summary>含螺线轨迹上“板凳龙”运动状态研究 (Jointly completed by Tailin Song, Lingrui Wang, and Caiyi Liang  由宋泰霖、王灵睿、梁彩依共同完成)</summary>
+<h5>作为一种传统民俗活动，“板凳龙”对我国具有重要的文化意义。本文旨在研究“板凳龙”舞龙队在不同含螺线
+轨迹下的运动状态，并对轨迹和速度进行优化。运动状态主要包括位置和速度。</h5>
+<h5>针对问题一：本文首先研究舞龙队在等距螺旋线上的运动状态。本文将对整个舞龙队的求解分为时间和空间两个
+维度，在时间维度上，基于等距螺旋线轨迹建立运动学微分方程，通过基于牛顿迭代法的fsolve方法求解龙头在不同时
+刻的位置；在空间维度上，基于螺线轨迹和板凳几何长度建立位置方程组，从龙头逐步迭代计算龙身龙尾把手位置，并
+根据角速度约束得到速度。本文通过Python实现上述算法，得到0至300s舞龙队各时刻把手的运动状态。</h5>
+<h5>针对问题二：考虑碰撞问题，本文研究舞龙队盘入终止时刻及其运动状态。基于问题一模型，本文对板凳之间的
+几何位置关系建立板凳碰撞模型，通过对板凳矩形空间进行检验，判断板凳是否碰撞。本文通过Matlab对舞龙队盘入
+过程进行模拟计算，得出盘入终止时刻为432.877981s，并得到此时刻下舞龙队各把手的运动状态。</h5>
+<h5>针对问题三：引入掉头空间，本文基于前两个模型对螺距进行优化。根据是否讨论空间高度的两种情况，本文得出
+不同结果。根据题面图示的各节板凳高度均不同的理想状态下，通过板凳与人碰撞时的几何关系，求解出最小螺距为0.280618m；
+若忽略高度，板凳在平面投影重叠即视为碰撞，本文通过二分寻优法对螺距搜索，基于GJK算法，通过计算原点与闵可夫
+斯基差集的的关系对板凳碰撞进行检测，模拟运动过程得到最小螺距为0.469873m。</h5>
+<h5>针对问题四：考虑更复杂的可掉头螺线-圆弧轨迹，本文研究舞龙队在一段时间上的运动状态。对于引入的连接处
+相切的S型曲线，舞龙队进入掉头空间的速度方向已经固定，无论两圆弧半径如何调整，根据几何关系S型曲线的弧长都
+恒定不变，因此掉头曲线长度无法变化。在两圆弧半径关系约束下，可求出两圆弧的轨迹方程，与两螺线轨迹结合带入
+问题一模型中进行分段求解，并根据运动学规律，得到-100s至100s舞龙队各时刻把手的运动状态。</h5>
+<h5>针对问题五：本文在问题四基础上对龙头速度进行优化，以满足对各把手速度不超过2m/s的约束条件。基于遗传
+算法，本文逐步迭代优化不同龙头速度，对整个舞龙队在可调头螺线-圆弧轨迹运动过程进行模拟，求解得到龙头的最大
+行进速度0.544437m/s。</h5>
+<h5>最后，经检验，模型准确性高，并评价模型的优缺点和推广改进。</h5>
+<p>Personal evaluation: The mathematical model established in this contest is quite complex, resulting in high
+programming difficulty. Our assumptions and modeling of speed in the contest were significantly different from
+the standards and reality, resulting in significant errors in the calculation of key variables and thus failing to win the award.</p>
+<p>个人评价：本次比赛所建立的数学模型较为复杂，因此导致编程难度很高。在赛程中我们对速度的假设和建模与
+标准和实际相差较大，使得对关键变量的计算出现较大错误，因而未能获奖。</p>
 </details>
 <h3 style="color:Green">$$2024-"Houcan Cup" Intelligent Evaluation Contest in Psychology and Cognition 2024年"厚粲杯"心理与认知智能测评大赛 (2024.09)</h3>
 <p style="color:Green">Honorable Mention 优秀奖 (40%)</p>
