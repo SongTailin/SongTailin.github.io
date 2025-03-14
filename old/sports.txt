@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tailin Song 宋泰霖</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a href="../index.html">Home 主页</a></li>
+  <li><a href="../news.html">News 新闻</a></li>
+  <li><a href="../education.html">Education 教育经历</a></li>
+  <li><a href="../publications.html">Publications 发表论文</a></li>
+  <li><a href="../research-experiences.html">Research 研究经历</a></li>
+   <li><a class="active" href="../professional-skills.html">Skills 综合技能</a></li>
+   <li><a href="../teaching-experience.html">Teaching 教学经历</a></li>
+   <li><a href="../organizational-experience.html">Organization 组织经历</a></li>
+   <li><a href="../honors-and-awards.html">Awards 荣誉奖励</a></li>
+  <li><a href="../data.html">Data 数据</a></li>
+  <li><a href="../relax.html">Relax 休闲区</a></li>
+</ul>
+
+<h2><a href="../professional-skills.html">Comprehensive Skills 综合技能</a> (Sports 体育) </h2>
+
+<dl>
+  <dt>Profession 专业能力</dt>
+  <dd><a href="ai.html">- Artificial Intelligence 人工智能</a></dd>
+  <dd><a href="programming.html">- Programming 程序设计</a></dd>
+  <dd><a href="software.html">- Software Engineering 软件工程</a></dd>
+  <dd><a href="modeling.html">- Mathematical Modeling 数学建模</a></dd>
+  <dd><a href="math.html">- Natural Sciences(Math, Physics, Chemistry) 理科基础(数学、物理、化学)</a></dd>
+  <dd><a href="innovation.html">- Innovation 创新</a></dd>
+  <dd><a href="teaching.html">- Teaching 教学</a></dd>
+  <dt>Language 语言能力</a></dt>
+  <dd><a href="mandarin.html">- Mandarin 中文</dd>
+  <dd><a href="english.html">- English 英文</dd>
+  <dt><a href="sports.html">Sports 体育运动</a></dt>
+  <dd>- Swimming 游泳</dd>
+  <dd>- Long Race 长跑</dd>
+  <dd>- Orienteering 定向越野</dd>
+</dl>
+
+</br>
+
+<div style="clear:both;">
+<img src="highlight.jpg" width="420" height="420" alt="news023-006" style="float:left">
+<h3>Personal Records 个人纪录</h3>
+<h4>Long Race 长跑</h4>
+<p style="color:DeepPink"><b>Highlighted Record 天灯记录 1km 03'28'' (2018.05)</b></p>
+<p>1km 03'52'' (2023.05) </p>
+<p>2km 09'04'' (2022.07) </p>
+<p>3km 14'36'' (2022.01) </p>
+<p>5km 28'04'' (2023.07) </p>
+<p>10km 57'38'' (2023.07) </p>
+<p>Half Marathon 半程马拉松 02°39'06'' (2023.09)</p>
+<h4>Swimming 游泳</h4>
+<p>1.5km 55'41'' (2023.07)</p>
+</div>
+
+<div style="clear:both;">
+<br/>
+</div>
+
+
+<h3>~~2024 Long March Memorial Online Marathon 2024长征纪念线上马拉松 (2024.11)</h3>
+<p>10km 01°10'12''</p>
+<h3>~~19th Station of Beijing Directional Direction Finding League - Beitou Aoyuan Station (Men's Purple Group) 北京定向测向联赛第十九站——北奥投园站(男子紫组) (2023.10)</h3>
+<p>28'17'' Eighth 第八名</p>
+<h3>~~2023 Panda Festival Online Marathon 2023熊猫节线上马拉松 (2023.09)</h3>
+<p>Half Marathon 半程马拉松 02°39'06''</p>
+<h3>~~2023 Combat Day War Memorial Day Online Marathon 2023抗战纪念日线上马拉松 (2023.07)</h3>
+<p>10km 57'38''</p>
+<h3>~~2023 Run the Nanning Online Marathon 2023跑遍城市·南宁线上马拉松 (2023.07)</h3>
+<p>10km 01°08'55''</p>
+<h3>~~Deep Water Qualification Certificate 深水合格证 (2021.12)</h3>
+<br/>
+
+<br/>
+
+<details>
+<summary>Mark Description 标记说明</summary>
+<h5>1. Color 颜色 : <b style="color:DarkOrange">Gold - Advanced (National) 金色-高级(国家级)</b> <b style="color:Blue">Blue - Intermediate (Provincial) 蓝色-中级(省级)</b> <b style="color:Green">Green - Primary 绿色-初级</b></h5>
+<h5>2. Pre-term Symbols 题前符号 : The first symbol represents the actual competition situation, and the second symbol represents the competition requirements 第一个符号代表实际参赛情况，第二个符号代表比赛要求</h5>
+<h5>3. Symbol Meaning 符号含义 : ~ solo 单人参加 # team with three 三人组队 $ team with multi 多人团队</h5>
+</details>
+
+<br/>
+
+</body>
+</html>
