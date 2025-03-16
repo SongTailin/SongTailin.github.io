@@ -1,0 +1,78 @@
+/* 图片+文本模块容器 */
+.slider-container {
+    position: relative; /* 相对定位 */
+    width: 80%; /* 设置宽度为父容器的80% */
+    max-width: 380px;  /* 最大宽度限制 */
+    overflow: hidden; /* 隐藏超出部分 */
+    border-radius: 10px; /* 圆角效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+/* 图片+文本组滑动区域 */
+.slider {
+    display: flex; /* 使用Flex布局横向排列 */
+    transition: transform 0.5s ease-in-out; /* 添加滑动动画效果 */
+}
+
+/* 每组图片+文本的容器 */
+.slide {
+    width: 100%; /* 宽度占满父容器 */
+    flex-shrink: 0; /* 防止压缩 */
+    display: flex; /* 使用Flex布局 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 水平居中 */
+}
+
+/* 图片样式 */
+.slide img {
+    width: auto; /* 宽度自适应 */
+    height: 100%; /* 高度占满父容器 */
+    max-height: 500px; /* 最大高度限制 */
+    border-radius: 10px 10px 0 0; /* 顶部圆角 */
+    object-fit: cover; /* 保持图片比例，裁剪超出部分 */
+}
+
+/* 文本框样式 */
+.slide .image-text {
+    width: 100%; /* 宽度占满父容器 */
+    padding: 10px; /* 内边距 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    border-radius: 0 0 10px 10px; /* 底部圆角 */
+    font-size: 16px; /* 字体大小 */
+    color: #333; /* 文字颜色 */
+    margin: 0; /* 去除默认外边距 */
+    text-align: center; /* 水平居中 */
+    display: flex; /* 使用Flex布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中（如果有多行文本） */
+    height: 20px; /* 固定文本框高度 */
+}
+
+/* 上一组和下一组按钮的通用样式 */
+.prev-btn, .next-btn {
+    position: absolute; /* 绝对定位 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 微调垂直位置 */
+    background-color: rgba(0, 0, 0, 0.5); /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    border: none; /* 去除边框 */
+    padding: 10px; /* 内边距 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+    border-radius: 50%; /* 圆形按钮 */
+    font-size: 18px; /* 字体大小 */
+}
+
+/* 按钮悬停效果 */
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* 悬停时背景颜色变深 */
+}
+
+/* 上一组按钮位置 */
+.prev-btn {
+    left: 10px; /* 距离左侧10px */
+}
+
+/* 下一组按钮位置 */
+.next-btn {
+    right: 10px; /* 距离右侧10px */
+}
