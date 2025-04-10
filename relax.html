@@ -241,7 +241,6 @@
     <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
     <button class="next-btn" onclick="nextSlide()">&#10095;</button>
 </div>
-<script src="scripts\image-text-slide.js"></script> <!-- 引入JavaScript文件 -->
 <p>Note: Some of the materials in the images are copyrighted by miHoYo. 注：图片中部分素材版权归米哈游所有。</p>
   
  </details>
@@ -289,9 +288,24 @@
 <br/>
 <div>
 <details>
-<summary><h3 style="display: inline;">Legend International 传说国际</h3></summary> <!-- mark not OK problem: picture -->
+<summary><h3 style="display: inline;">Legend International 传说国际</h3></summary> <!-- mark OK -->
 <p>Legendary International is composed of Animal Legends and Figure Legends. Animal Legends is a soft animal model group guided by GODDOG. Figure Legends is a hard figure model group guided by GODDOG. The setting of Legend International, the activities organized or participated in by Legend International will be displayed here.</p>
 <p>传说国际由传说动物团和传说手办团组成。传说动物团是由战狗传说指导的软动物模型集团。传说手办团是由战狗传说指导的硬手办模型集团。传说国际的设定、举办和参与的活动将展示在这里。</p>
+<div class="slider-container">
+  <div class="slider">
+      <div class="slide">
+          <img src="relax\legend_international\1.jpg" alt="legend_international_1">
+          <p class="image-text">2024 Animal Legends New Year Team Building 2024年传说动物团新年团建</p>
+      </div>
+      <div class="slide">
+          <img src="relax\legend_international\2.jpg" alt="legend_international_2">
+          <p class="image-text">2025 Figure Legends Establishment Ceremony 2025年传说手办团成立典礼</p>
+      </div>
+  </div>
+  <!-- 上一组和下一组按钮 -->
+  <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+  <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+</div>
 
 </details>
 <div/>
@@ -382,5 +396,6 @@
 <br/>
 
 
+<script src="scripts\image-text-slide.js"></script> <!-- 引入JavaScript文件 -->
 </body>
 </html>
