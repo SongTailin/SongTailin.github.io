@@ -2,7 +2,7 @@
 .slider-container {
     position: relative; /* 相对定位 */
     width: 80%; /* 设置宽度为父容器的80% */
-    max-width: 380px;  /* 最大宽度限制 */
+    max-width: 1000px;  /* 最大宽度限制 */
     overflow: hidden; /* 隐藏超出部分 */
     border-radius: 10px; /* 圆角效果 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
