@@ -1,0 +1,9 @@
+/* 倒计时容器基础样式 */
+.countdown-box {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    margin: 20px 0;
+    /* 可根据需求自行调整颜色、字体、边距等 */
+}
